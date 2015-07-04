@@ -7,3 +7,27 @@ keep track of our changes.
 What value do you think it offers?
 	staging area is a logical intermediate level where the files which we want
 to commit is in. Repository contains untracked files and added files to be committed.
+
+03)How can you use the staging area to make sure you have one commit per
+ logical change?
+	You can compare staging area and repository most recent commit to check
+whether commit has only one logical change
+
+04)What are some situations when branches would be helpful in keeping your history
+ organized? How would branches help?
+	Branches help us to make different versions of the same project which we
+can go back to the start of version any time. It helps to add experimental
+features to our project without changing the main one.
+
+05)How do the diagrams help you visualize the branch structure?
+	Diagrams help to easily understand when we had created the branches and what
+are they.Also With diagrams we can see what commits are reachable and what are not.
+
+06)What is the result of merging two branches together? Why do we represent it in 
+the diagram the way we do?
+	It result merging branches to have both functionalities in two branches.
+It removes lines which were removed by a branch and adds newly created lines together with
+the existing ones which both the branches had.
+	Representing that way menas that the new commit have all the commits which
+both the branches had after branching into two and original commits which were 
+there before the branching  
