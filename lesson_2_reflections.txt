@@ -30,4 +30,6 @@ It removes lines which were removed by a branch and adds newly created lines tog
 the existing ones which both the branches had.
 	Representing that way menas that the new commit have all the commits which
 both the branches had after branching into two and original commits which were 
-there before the branching  
+there before the branching
+
+07)What are the pros and cons of Git’s automatic merging vs. always doing merges manually?  
